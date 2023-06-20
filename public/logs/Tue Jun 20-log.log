@@ -1,0 +1,111 @@
+2023-06-20T05:46:18.945Z - error ==> jwt must be provided, description==>JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/jsonwebtoken/verify.js:60:17)
+    at verifyJWT (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/services/jwt.js:10:20)
+    at auth (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/middleware/auth.js:8:27)
+    at Layer.handle [as handle_request] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:280:10)
+
+2023-06-20T05:46:21.692Z - error ==> jwt must be provided, description==>JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/jsonwebtoken/verify.js:60:17)
+    at verifyJWT (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/services/jwt.js:10:20)
+    at auth (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/middleware/auth.js:8:27)
+    at Layer.handle [as handle_request] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:280:10)
+
+2023-06-20T05:47:40.688Z - error ==> jwt must be provided, description==>JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/jsonwebtoken/verify.js:60:17)
+    at verifyJWT (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/services/jwt.js:10:20)
+    at auth (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/middleware/auth.js:8:27)
+    at Layer.handle [as handle_request] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:280:10)
+
+2023-06-20T06:14:39.128Z - error ==> data?.forEach is not a function, description==>TypeError: data?.forEach is not a function
+    at createCheckout (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/controllers/stripeController.js:10:11)
+    at Layer.handle [as handle_request] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/route.js:144:13)
+    at auth (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/middleware/auth.js:12:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T06:16:45.508Z - error ==> The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects., description==>Error: The `price` parameter should be the ID of a price object, rather than the literal numerical price. Please see https://stripe.com/docs/billing/prices-guide#create-prices for more information about how to set up price objects.
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T06:22:06.714Z - error ==> Invalid string: {:unit_amount=>"2500", :id=>"RF290", :currency=>"usd"}, description==>Error: Invalid string: {:unit_amount=>"2500", :id=>"RF290", :currency=>"usd"}
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T06:22:29.327Z - error ==> Invalid string: {:unit_amount=>"2500", :id=>"RF290", :currency=>"usd"}, description==>Error: Invalid string: {:unit_amount=>"2500", :id=>"RF290", :currency=>"usd"}
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T06:22:50.806Z - error ==> Invalid string: {:unit_amount=>"2500", :id=>"10", :currency=>"usd"}, description==>Error: Invalid string: {:unit_amount=>"2500", :id=>"10", :currency=>"usd"}
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T06:28:09.770Z - error ==> Invalid string: {:unit_amount=>"2500", :id=>"10", :currency=>"usd"}, description==>Error: Invalid string: {:unit_amount=>"2500", :id=>"10", :currency=>"usd"}
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T06:28:19.249Z - error ==> Invalid string: {:unit_amount=>"2500", :id=>"10", :currency=>"usd"}, description==>Error: Invalid string: {:unit_amount=>"2500", :id=>"10", :currency=>"usd"}
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T06:29:20.511Z - error ==> Invalid string: {:unit_amount=>"25", :id=>"10", :currency=>"usd"}, description==>Error: Invalid string: {:unit_amount=>"25", :id=>"10", :currency=>"usd"}
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T06:41:55.076Z - error ==> Invalid object, description==>Error: Invalid object
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T06:52:00.136Z - error ==> jwt must be provided, description==>JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/jsonwebtoken/verify.js:60:17)
+    at verifyJWT (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/services/jwt.js:10:20)
+    at auth (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/middleware/auth.js:8:27)
+    at Layer.handle [as handle_request] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/cedcoss/Syed/demo-project/payment-app/server/node_modules/express/lib/router/index.js:280:10)
+
+2023-06-20T07:10:11.628Z - error ==> Invalid object, description==>Error: Invalid object
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+2023-06-20T08:45:01.938Z - error ==> Stripe: Argument "customer" must be a string, but got: null (on API request to `GET /v1/customers/{customer}`), description==>Error: Stripe: Argument "customer" must be a string, but got: null (on API request to `GET /v1/customers/{customer}`)
+    at file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/StripeResource.js:95:23
+    at Array.reduce (<anonymous>)
+    at Constructor._getRequestOpts (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/StripeResource.js:92:35)
+    at file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/StripeResource.js:139:29
+    at new Promise (<anonymous>)
+    at Constructor._makeRequest (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/StripeResource.js:135:16)
+    at Constructor.retrieve (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/StripeMethod.js:28:67)
+    at paymentSuccess (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/controllers/stripeController.js:40:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
