@@ -109,3 +109,8 @@
     at paymentSuccess (file:///home/cedcoss/Syed/demo-project/payment-app/server/src/controllers/stripeController.js:40:45)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 
+2023-06-20T10:41:22.506Z - error ==> You must provide at least one recurring price in `subscription` mode when using prices., description==>Error: You must provide at least one recurring price in `subscription` mode when using prices.
+    at StripeError.generate (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/Error.js:7:20)
+    at res.toJSON.then.StripeAPIError.message (file:///home/cedcoss/Syed/demo-project/payment-app/server/node_modules/stripe/esm/RequestSender.js:102:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+

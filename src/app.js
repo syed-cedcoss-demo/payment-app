@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url';
 import security from './config/security.js';
 import { googleLogin } from './controllers/authController.js';
 import authRoute from './routes/authRoute.js';
+import razorpayRoute from './routes/razorpayRoute.js';
 import stripeRoute from './routes/stripeRoute.js';
 import userRoute from './routes/userRoute.js';
 
@@ -33,11 +34,14 @@ const setupApp = (app) => {
   app.use('/upload', express.static(basePath + '/public/uploads'));
   app.use('/logs', express.static(basePath + '/public/logs'));
 
-  // APP ROUTES
+  // STATUS ROUTE
   app.get('/', (req, res) => res.status(200).send('<h2>Server is running...</h2>'));
+
+  // APP ROUTES
   app.use('/auth', authRoute);
   app.use('/user', userRoute);
   app.use('/stripe', stripeRoute);
+  app.use('/razorpay', razorpayRoute);
 
   // ROUTE NOT FOUND
   app.use('*', (req, res) => {

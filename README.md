@@ -17,5 +17,7 @@ GOOGLE_CLIENT_SECRET=""
 
 FACEBOOK_CLIENT_ID=""
 FACEBOOK_CLIENT_SECRET=""
+
+STRIPE_PUBLIC_KEY=""
+STRIPE_SECRET_KEY=""
 ```
-#### https://node-setup-server.onrender.com/
