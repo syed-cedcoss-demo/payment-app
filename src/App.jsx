@@ -1,6 +1,7 @@
-import StripeDemo from "./components/stripe/StripeDemo";
+import RazorpayDemo from "./components/stripe/RazorpayDemo";
+// import StripeDemo from "./components/stripe/StripeDemo";
 const App = () => {
-  return <StripeDemo />;
+  return <RazorpayDemo />;
 };
 
 export default App;
